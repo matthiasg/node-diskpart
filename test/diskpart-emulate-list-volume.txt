@@ -1,0 +1,14 @@
+Microsoft DiskPart version 10.0.17134.1
+
+Copyright (C) Microsoft Corporation.
+On computer: SOMETHING
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     F                       DVD-ROM         0 B  No Media
+  Volume 1     D   Data         NTFS   Partition    476 GB  Healthy
+  Volume 2         WinRE        NTFS   Partition    650 MB  Healthy
+  Volume 3                      RAW    Partition     14 GB  Healthy
+  Volume 4     C   System       NTFS   Partition    222 GB  Healthy    Boot
+  Volume 5         EFI          FAT32  Partition    200 MB  Healthy    System
+  Volume 6     S   Transcend    FAT32  Removable     14 GB  Healthy

@@ -1,0 +1,32 @@
+{
+  "name": "diskpart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "tape-watch -1 test/*.spec.js",
+    "test:watch": "npm run test:unit:watch",
+    "test:unit:watch": "tape-watch test/*.spec.js 2>&1 | tape-growl | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthiasg/node-diskpart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthiasg/node-diskpart/issues"
+  },
+  "homepage": "https://github.com/matthiasg/node-diskpart#readme",
+  "devDependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0",
+    "tape-growl": "^1.0.5",
+    "tape-watch": "^2.3.0"
+  },
+  "dependencies": {
+    "is-elevated": "^3.0.0",
+    "temp": "^0.9.1"
+  }
+}
